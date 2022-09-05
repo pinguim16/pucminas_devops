@@ -1,0 +1,26 @@
+aws_vpc.vpc_teste_pucminas: Creating...
+aws_vpc.vpc_teste_pucminas: Still creating... [10s elapsed]
+aws_vpc.vpc_teste_pucminas: Creation complete after 14s [id=vpc-004f71e67bd01899c]
+aws_internet_gateway.internet_gateway_teste_pucminas: Creating...
+aws_subnet.subnet_teste_pucminas: Creating...
+aws_security_group.sg-web: Creating...
+aws_internet_gateway.internet_gateway_teste_pucminas: Creation complete after 1s [id=igw-054fecf2b38580857]
+aws_route_table.route_table_teste_pucminas: Creating...
+aws_subnet.subnet_teste_pucminas: Creation complete after 1s [id=subnet-048c2313c585c5bcc]
+aws_route_table.route_table_teste_pucminas: Creation complete after 2s [id=rtb-0189eeabcfb27b5a8]
+aws_route_table_association.route_table_association_teste_pucminas: Creating...
+aws_route.route_teste_pucminas: Creating...
+aws_route_table_association.route_table_association_teste_pucminas: Creation complete after 1s [id=rtbassoc-0dc2c9c52a817218f]
+aws_route.route_teste_pucminas: Creation complete after 1s [id=r-rtb-0189eeabcfb27b5a81080289494]
+aws_security_group.sg-web: Creation complete after 4s [id=sg-0f51ee822687b859e]
+aws_instance.this[0]: Creating...
+aws_instance.this[0]: Still creating... [10s elapsed]
+aws_instance.this[0]: Still creating... [20s elapsed]
+aws_instance.this[0]: Still creating... [30s elapsed]
+aws_instance.this[0]: Creation complete after 38s [id=i-0dd42d4da7136eb95]
+
+Apply complete! Resources: 8 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+ec2_public_ip = "34.232.50.196"
