@@ -3,7 +3,8 @@
  
  RUN apt-get update && apt-get upgrade -y
  
- COPY static-html-directory /usr/share/nginx/html
+ #COPY static-html-directory /usr/share/nginx/html
+ VOLUME ./efs:/usr/share/nginx/html
  
  EXPOSE 8080
  
